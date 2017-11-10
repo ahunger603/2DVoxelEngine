@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\World">
+      <UniqueIdentifier>{c3455154-2361-4226-987a-475b4499d902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World">
+      <UniqueIdentifier>{0da4f22a-7950-4a10-97c8-f57f54670749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStates">
+      <UniqueIdentifier>{2219c9b3-78dc-4315-a38e-63624e7f0f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStates">
+      <UniqueIdentifier>{2fa44090-a263-4920-84de-42087114baff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStates\Menus">
+      <UniqueIdentifier>{aea7089f-0d08-490f-8334-79952a329e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStates\Menus">
+      <UniqueIdentifier>{74b9debf-3cfd-42f8-bb5e-54f0ff3917af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\ChunkManager">
+      <UniqueIdentifier>{bb6f1988-9022-4b9b-ab7f-2f40d5436614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World\ChunkManager">
+      <UniqueIdentifier>{d2f520f0-2c60-4134-a042-6ef4d58e42db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\Entity">
+      <UniqueIdentifier>{a7ee846b-7b17-46fb-9b5e-ff263a39289a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World\Entity">
+      <UniqueIdentifier>{b77061a3-b0c4-4070-9e47-4d41ea21dcfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World\WorldGeneration">
+      <UniqueIdentifier>{617b4423-b0fd-4d69-b7ac-ce6ea2918743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\WorldGeneration">
+      <UniqueIdentifier>{a9ac251c-44e3-4a8d-93be-cbab6bdd0c4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World\Entity\EntityComponents">
+      <UniqueIdentifier>{ab77861e-eebd-41c2-bb04-07cdf9f40c51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\Entity\EntityComponents">
+      <UniqueIdentifier>{24d47a23-39a2-4ba1-aa9f-1ef5234e5172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\World\InGameMenus">
+      <UniqueIdentifier>{2e694561-d305-4db7-93a9-ab45c62b0a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World\InGameMenus">
+      <UniqueIdentifier>{c1b65a1c-2d3d-477a-a003-aa08a44ec1fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IntputManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Nosie.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files\World</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\GameStates\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files\GameStates\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldChunkManager.cpp">
+      <Filter>Source Files\World\ChunkManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkCacheManager.cpp">
+      <Filter>Source Files\World\ChunkManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\World\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Source Files\World\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsEngine.cpp">
+      <Filter>Source Files\World\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkGenerationQueue.cpp">
+      <Filter>Source Files\World\WorldGeneration</Filter>
+    </ClCompile>
+    <ClCompile Include="EscapeMenuState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="EscapeMenu.cpp">
+      <Filter>Source Files\GameStates\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemContainer.cpp">
+      <Filter>Source Files\World\Entity\EntityComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryMenu.cpp">
+      <Filter>Source Files\World\InGameMenus</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameMenu.cpp">
+      <Filter>Source Files\World\InGameMenus</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameMenuManager.cpp">
+      <Filter>Source Files\World\InGameMenus</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\World\Entity\EntityComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemContainerMenuComponent.cpp">
+      <Filter>Source Files\World\InGameMenus</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Header Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>Header Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Noise.h">
+      <Filter>Header Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\World</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\GameStates\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files\GameStates\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkCacheManager.h">
+      <Filter>Header Files\World\ChunkManager</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldChunkManager.h">
+      <Filter>Header Files\World\ChunkManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\World\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Header Files\World\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsEngine.h">
+      <Filter>Header Files\World\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkGenerationQueue.h">
+      <Filter>Header Files\World\WorldGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="EscapeMenuState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="EscapeMenu.h">
+      <Filter>Header Files\GameStates\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityComponents.h">
+      <Filter>Header Files\World\Entity\EntityComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header Files\World\Entity\EntityComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemContainer.h">
+      <Filter>Header Files\World\Entity\EntityComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryMenu.h">
+      <Filter>Header Files\World\InGameMenus</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameMenu.h">
+      <Filter>Header Files\World\InGameMenus</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameMenuManager.h">
+      <Filter>Header Files\World\InGameMenus</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\World\Entity\EntityComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemContainerMenuComponent.h">
+      <Filter>Header Files\World\InGameMenus</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
